@@ -14,7 +14,7 @@ Note that at the top of the code work space, there is a console output that will
 
 ![Alt text](https://github.com/lelandg/Blender-Remove-Doubles-Globally/blob/master/2018-01-22%20-Blender%20-%20Remove%20Doubles%20Globally%20(2).png)
 
-If you click the 'Register' checkbox at the bottom of your text window, it will automatically run the script the next time you open this blend file.
+If you tick the 'Register' checkbox at the bottom of your text window, it will automatically run the script the next time you open this blend file.
 
 If you want the script to always load at startup, you can import it as an add-on (I think... I'll look into this later), or open your startup scene, open the textblock and take the "Register" box and then save the startup scene (File -> Save Startup File). This latter method is confirmed by me to work, so I'd recommend that until I look into actual Blender plugins.
 
