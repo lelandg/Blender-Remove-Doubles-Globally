@@ -95,6 +95,12 @@ class OBJECT_OT_GlobalRemoveDoublesButton(bpy.types.Operator):
 
         return{'FINISHED'}
     
+def register():
+    bpy.utils.register_class(VIEW3D_PT_tools_GlobalRemoveDoublesPanel)
+
+def unregister():
+    bpy.utils.unregister_class(VIEW3D_PT_tools_GlobalRemoveDoublesPanel)
+ 
+
 if __name__ == "__main__":
-    bpy.utils.register_module(__name__)
-    #register()
+    register()
